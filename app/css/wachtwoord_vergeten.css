@@ -1,0 +1,69 @@
+@media screen and (max-width: 375px) {
+
+    .top {
+        height: 23.5px;
+    }
+
+    .logo {
+        width: 302px;
+        height: 185px;
+        border: black solid 1px;
+        margin: 0 0 0 37px;
+    }
+
+    .logo__tekst {
+        font-size: 100px;
+        margin: 6px 0 0 39.5px;
+    }
+
+    .appname {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 28.9px 0;
+    }
+
+    .form {
+        margin: 0 0 0 36.5px;
+    }
+
+    .form__label {
+        color: white;
+        font-size: 30px;
+    }
+
+    .form__input {
+        background: none;
+        color: white;
+        border: white solid 1px;
+        width: 286.5px;
+        height: 54.79px;
+        outline: 0;
+        font-size: 30px;
+        padding: 0 0 0 15.5px;
+    }
+
+    .form__input:focus {
+        border: solid 1px #065880;
+    }
+
+    .form__submit {
+        font-size: 26px;
+        padding: 14px 96px 18px 98px;
+        border: solid 1px white;
+        background: none;
+        border-radius: 25px;
+        margin-top: 10.1px;
+        color: white;
+    }
+
+    .terug {
+        color: black;
+        text-decoration: none;
+        position: relative;
+        top: 72px;
+        left: 82px;
+        font-size: 26px;
+        text-align: center;
+    }
+}

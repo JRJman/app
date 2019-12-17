@@ -1,0 +1,99 @@
+@media screen and (max-width: 375px){
+
+    .top {
+        height: 23.5px;
+    }
+
+    .logo {
+        width: 302px;
+        height: 185px;
+        border: black solid 1px;
+        margin: 0 0 0 37px;
+    }
+
+    .logo__tekst {
+        font-size: 100px;
+        margin: 6px 0 0 39.5px;
+    }
+
+    .appname {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 40.3px 0;
+    }
+
+    .login {
+        margin: 0 36.5px;
+    }
+
+    .login__mistake {
+        position: relative;
+        height: 0;
+        top: -45px;
+        font-size: 20px;
+        text-align: center;
+        color: red;
+    }
+
+    .login__email {
+        position: relative;
+        height: 0;
+        top: -45px;
+        font-size: 20px;
+        text-align: center;
+        color: #028ED3;
+    }
+
+    .login__labels {
+        color: white;
+        font-size: 30px;
+    }
+
+    .login__inputs {
+        background: none;
+        color: white;
+        width: 302px;
+        height: 54.79px;
+        outline: 0;
+        font-size: 30px;
+        padding: 0 0 0 15.5px;
+    }
+
+    .login__inputs::placeholder {
+        color: white;
+        font-size: 30px;
+    }
+
+    .login__inputs:focus {
+        border-color: #065880;
+    }
+
+    .login__img--eyes {
+        width: 46px;
+        position: relative;
+        top: -50px;
+        left: 267px;
+        cursor: pointer;
+    }
+
+    .login__wachtwoord-vergeten {
+        position: relative;
+        top: -20px;
+        left: -49px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .login__submit {
+        font-size: 26px;
+        padding: 13px 119px 19px 120px;
+        border: solid 1px white;
+        background: none;
+        border-radius: 25px;
+        margin-top: 10.1px;
+        color: white;
+    }
+
+}
