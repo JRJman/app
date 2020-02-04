@@ -1,0 +1,166 @@
+
+    .aboveSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 26px;
+    }
+
+    .aboveSection__toYears {
+        margin-left: 22px;
+        display: grid;
+        grid-template-columns: 44px 1fr;
+        color: white;
+    }
+
+    .aboveSection__years {
+        margin: auto 0;
+    }
+
+    .aboveSection__img {
+        width: 44px;
+    }
+
+    .aboveSection__time {
+        color: white;
+        font-size: 17px;
+        margin: auto 0;
+        padding: 0 0 0 115px;
+    }
+
+    .above {
+        display: grid;
+        width: 218px;
+        grid-template-columns: 44px 144px 44px;
+        margin: 15px auto 51px auto;
+    }
+
+    .above--months {
+        display: grid;
+        width: 118px;
+        grid-template-columns: 44px 30px 44px;
+        margin: 15px auto 51px auto;
+    }
+
+    .above--years {
+        display: grid;
+        width: 173px;
+        grid-template-columns: 44px 85px 44px;
+        margin: 15px auto 51px auto;
+    }
+
+    .above__tekst {
+        display: block;
+        margin: auto;
+        font-size: 17px;
+        color: white;
+    }
+
+    .above__img {
+        height: 44px;
+    }
+
+    .above:nth-child(3) {
+        margin: 0;
+    }
+
+    .table {
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    .table__item--head {
+        font-weight: normal;
+        color: white;
+        font-size: 17px;
+    }
+
+    .table__item {
+        border: 2px solid #707070;
+        color: #707070;
+        width: 43px;
+        height: 57px;
+        background-color: white;
+        vertical-align: top;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .table__item--grey {
+        background-color: #D4D4D4;
+    }
+
+    .table__item--today {
+        border: 1px solid #707070;
+        color: white;
+        background-color: black;
+        width: 43px;
+        height: 57px;
+        vertical-align: top;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .table-month {
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    .table-month__item {
+        border: 2px solid #707070;
+        color: #707070;
+        width: 75px;
+        height: 95px;
+        background-color: white;
+        vertical-align: center;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .table-month__item--after {
+        background-color: #D4D4D4;
+    }
+
+    .table-month__item--today {
+        border: 1px solid #707070;
+        color: white;
+        background-color: black;
+        width: 75px;
+        height: 95px;
+        vertical-align: center;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .table-years {
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    .table-years__item {
+        border: 2px solid #707070;
+        color: #707070;
+        width: 75px;
+        height: 95px;
+        background-color: white;
+        vertical-align: center;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .table-years__item--after {
+        background-color: #D4D4D4;
+    }
+
+    .table-years__item--today {
+        border: 1px solid #707070;
+        color: white;
+        background-color: black;
+        width: 75px;
+        height: 95px;
+        vertical-align: center;
+        text-align: center;
+        font-size: 17px;
+    }

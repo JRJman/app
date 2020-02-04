@@ -1,35 +1,36 @@
-.titel {
-    padding-top: 20px;
-    margin-bottom: 60px;
-    color: white;
-    text-align: center;
-}
 
-.titel__tekst {
-    font-size: 20px;
-}
+    .titel {
+        padding-top: 20px;
+        margin-bottom: 60px;
+        color: white;
+        text-align: center;
+    }
 
-.titel__patientenlijst {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-}
+    .titel__tekst {
+        font-size: 20px;
+    }
 
-.patientenlijst {
-    margin-top: 15px;
-}
+    .titel__patientenlijst {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
 
-.patient {
-    width: 302px;
-    margin: 0 auto 25px auto;
-    border: 1px solid white;
-    border-radius: 60px;
-}
+    .patientenlijst {
+        margin-top: 15px;
+    }
 
-.patient__titel {
-    color: white;
-    padding: 8px 0;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-}
+    .patient {
+        width: 302px;
+        margin: 0 auto 25px auto;
+        border: 1px solid white;
+        border-radius: 60px;
+    }
+
+    .patient__titel {
+        color: white;
+        padding: 8px 0;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }

@@ -16,7 +16,7 @@
     <link href="css/<?php echo $pagina?>.css" rel="stylesheet">
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap" id="wrapper">
         <?php include 'template/' . $pagina . '.php'?>
     </div>
     <script src="javascript/<?php echo $pagina?>.js"></script>

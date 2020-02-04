@@ -1,0 +1,112 @@
+.aboveSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboveSection__toMonths {
+    margin-left: 22px;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    color: white;
+}
+
+.aboveSection__years {
+    margin: auto 0;
+}
+
+.aboveSection__img {
+    width: 44px;
+}
+
+.aboveSection__time {
+    color: white;
+    font-size: 17px;
+    margin: auto 0;
+    padding: 0 0 0 115px;
+}
+
+.aboveMonth {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+.dayChooser {
+    display: grid;
+    grid-template-columns: 44px auto 44px;
+    height: 70px;
+}
+
+.dayChooser__img {
+    width: 50px;
+    margin: auto 0 0 0;
+}
+
+.dayChooser__table--item_head {
+    font-weight: normal;
+    color: white;
+    font-size: 17px;
+}
+
+.dayChooser__table--item {
+    background-color: white;
+    color: #707070;
+    width: 40px;
+    height: 37px;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 100%;
+}
+
+.dayChooser__table--item_chosen {
+    background-color: black;
+    color: white;
+}
+
+.dayChooser__table--item_today {
+    background-color: #D4D4D4;
+}
+
+.taken {
+    display: grid;
+    grid-gap: 14px;
+    margin-left: 37px;
+}
+
+.taak {
+    display: grid;
+    grid-template-columns: 80px 1fr 60px;
+    background-color: white;
+    height: 100px;
+    width: 301px;
+    border-radius: 32px;
+}
+
+.taak__accept {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #707070;
+    border-radius: 100%;
+    margin: 20px 9px;
+}
+
+.taak__accept img{
+    height: 32px;
+    width: 32px;
+    margin: 14px;
+}
+
+.taak__titel {
+    color: #707070;
+    font-size: 17px;
+    margin: auto;
+}
+
+.taak__tijd {
+    color: #707070;
+    font-size: 25px;
+    margin: auto 18px auto 0;
+}

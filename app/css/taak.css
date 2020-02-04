@@ -1,0 +1,166 @@
+.aboveSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aboveSection__toTaken {
+    margin-left: 22px;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    color: white;
+}
+
+.aboveSection__years {
+    margin: auto 0;
+}
+
+.aboveSection__img {
+    width: 44px;
+}
+
+.aboveSection__time {
+    color: white;
+    font-size: 17px;
+    margin: auto 0;
+    padding: 0 0 0 115px;
+}
+
+.paniek {
+    margin: 0 auto;
+    width: 126px;
+}
+
+.paniek__knop {
+    font-size: 15px;
+    padding: 10px 42px;
+    background-color: white;
+    color: #707070;
+    border-radius: 25px;
+    border: none;
+}
+
+.plaatje {
+    width: 302px;
+    height: 363px;
+    background-color: white;
+    margin: 16px auto 0 auto;
+}
+
+.plaatje__tekst {
+    font-size: 25px;
+    color: #707070;
+    text-align: center;
+    padding-top: 149px;
+}
+
+.uitleg {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.timer {
+
+}
+
+.timer__time {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 23px;
+    margin-bottom: 17px;
+}
+
+.timer__lines {
+    margin-bottom: 20px;
+}
+
+.timer__line--black {
+    float: left;
+    background-color: black;
+    height: 10px;
+    position: relative;
+    top: -10px;
+    left: 36px;
+    animation: width 10s linear;
+}
+
+.timer__line--white {
+    margin: 0 auto;
+    background-color: white;
+    width: 302px;
+    height: 10px;
+}
+
+.bottem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottem__arrows:nth-child(1){
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.bottem__arrows:nth-child(3){
+    display: grid;
+    grid-template-columns: 1fr 50px;
+}
+
+.bottem__arrows img {
+    height: 50px;
+}
+
+.bottem__arrows p:nth-child(1) {
+    color: white;
+    font-size: 20px;
+    margin: auto 0 auto auto;
+}
+
+.bottem__arrows p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+    margin: auto auto auto 0;
+}
+
+.bottem__audio{
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    background-color: white;
+    width: 84px;
+    height: 24px;
+    padding: 10px 5px;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.bottem__audio img {
+    height: 26px;
+}
+
+.bottem__audio p {
+    color: #707070;
+    font-size: 20px;
+}
+
+.achtergrond {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.achtergrond__tekst {
+    text-align: center;
+    color: white;
+    margin-top: 35vh;
+    font-size: 30px;
+}
+
+@keyframes width {
+    from{width:302px}
+    to{width:0}
+}
+
